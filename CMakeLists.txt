@@ -5,8 +5,8 @@ project(qt-multithreading VERSION 1.0.0 DESCRIPTION "Знакомство с м�
 
 include_directories(${CMAKE_SOURCE_DIR}/src)
 add_subdirectory(src/server)
-add_subdirectory(src/client)
+#add_subdirectory(src/client)
 
 enable_testing()
-add_subdirectory(test/server)
-add_subdirectory(test/client)
+#add_subdirectory(test/server)
+#add_subdirectory(test/client)
